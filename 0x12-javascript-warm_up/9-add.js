@@ -1,9 +1,9 @@
 #!/usr/bin/node
-function add(a, b) {
-  return isNaN(a) || isNaN(b) ? 'Error: Not a number' : a + b;
+const a = process.argv[2];
+const b = process.argv[3];
+
+function add (a, b) {
+  return (a + b);
 }
 
-const firstArg = process.argv[2];
-const secondArg = process.argv[3];
-
-console.log(add(firstArg, secondArg));
+console.log(add(parseInt(a), parseInt(b)));
