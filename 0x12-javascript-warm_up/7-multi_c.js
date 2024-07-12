@@ -7,5 +7,5 @@ if (isNaN(parseInt(firstArg))) {
   const numOccurrences = parseInt(firstArg);
   for (let i = 0; i < numOccurrences; i++) {
   console.log('C is fun');
-}
+  }
 }
