@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/node
 function add(a, b) {
   return isNaN(a) || isNaN(b) ? 'Error: Not a number' : a + b;
 }
